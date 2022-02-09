@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HopsPractical</string>
+    <string name="full_name">Full Name: </string>
+    <string name="patient_id">Patient ID:</string>
+    <string name="gender">Gender:</string>
+    <string name="dob">DOB:</string>
+    <string name="patients_details">Patients Details</string>
+    <string name="vital">Vital</string>
+    <string name="value1">Value1:</string>
+    <string name="value2uom">value2Uom:</string>
+    <string name="value1uom">Value1uom</string>
+    <string name="value2">Value2:</string>
+    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="get_otp">Get OTP?</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="login">Login</string>
+</resources>

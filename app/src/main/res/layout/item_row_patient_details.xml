@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvVital"
+        android:text="@string/vital"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvVitalText"
+        app:layout_constraintStart_toEndOf="@id/tvVital"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue1"
+        android:text="@string/value1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvVital"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue1Text"
+        app:layout_constraintStart_toEndOf="@id/tvValue1"
+        app:layout_constraintTop_toBottomOf="@id/tvVitalText"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvvalue1uom"
+        android:text="@string/value1uom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvValue1"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue1oumText"
+        app:layout_constraintStart_toEndOf="@id/tvvalue1uom"
+        app:layout_constraintTop_toBottomOf="@id/tvValue1Text"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue2"
+        android:text="@string/value2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvvalue1uom"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue2Text"
+        app:layout_constraintStart_toEndOf="@id/tvValue2"
+        app:layout_constraintTop_toBottomOf="@id/tvValue1oumText"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue2oum"
+        android:text="@string/value2uom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvValue2"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvValue2oumText"
+        app:layout_constraintStart_toEndOf="@id/tvValue2oum"
+        app:layout_constraintTop_toBottomOf="@id/tvValue2Text"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/side_mini_margin"
+        android:layout_marginEnd="@dimen/side_mini_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="@id/tvValue2oumText"
+        android:layout_marginTop="@dimen/side_mini_margin"
+        android:background="@color/black"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

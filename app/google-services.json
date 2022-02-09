@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "509850283726",
+    "project_id": "hopspractical",
+    "storage_bucket": "hopspractical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509850283726:android:40a7a5da4447307a77ea9f",
+        "android_client_info": {
+          "package_name": "com.example.hopspractical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509850283726-547ng7e5m1pej3s9jnho3qjf4gutfo9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC0UIoWQaAe8whTMeztZKf3dmlGd7-Nto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509850283726-547ng7e5m1pej3s9jnho3qjf4gutfo9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
